@@ -1,0 +1,20 @@
+{
+  "name": "wnet-bof",
+  "version": "1.0.0",
+  "command_name": "wnet-bof",
+  "extension_author": "lab",
+  "original_author": "lab",
+  "repo_url": "",
+  "help": "Collect local system info (profile, session, processes, services, files) and write to %LOCALAPPDATA%\\wnet-bof.log",
+  "long_help": "",
+  "bof_executor": "reflektor",
+  "entrypoint": "go",
+  "files": [
+    {
+      "os": "windows",
+      "arch": "amd64",
+      "path": "wnet-bof.o"
+    }
+  ],
+  "arguments": []
+}
